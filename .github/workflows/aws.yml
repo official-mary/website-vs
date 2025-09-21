@@ -24,3 +24,21 @@ jobs:
         uses: actions/checkout@v2
       - name: run a linux command
         run: cat index.html
+
+  deploy3:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: run a linux command
+        run: ls -la 
+
+  deploy4:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: run a linux command
+        run: cat index.html
